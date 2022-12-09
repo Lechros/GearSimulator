@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7C68436-8D82-40EA-B31C-83247BD2300D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GearSimulator</RootNamespace>
+    <AssemblyName>GearSimulator</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>게시\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0134CD748A34B2AB8E7F57EAD6FDE1A200FFEC33</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>GearTooltipMaker_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>GearSimulator.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Caliburn.Micro, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.Core.3.2.0\lib\net45\Caliburn.Micro.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro.Platform, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro.Platform.Core, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentWPF">
+      <HintPath>..\packages\FluentWPF.0.9.0\lib\net45\FluentWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AttachedBehaviors\InteractionBehavior.cs" />
+    <Compile Include="AttachedBehaviors\ScrollAnimationBehavior.cs" />
+    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="AttachedBehaviors\Helpers\FindVisualChildHelper.cs" />
+    <Compile Include="GearManager\BitmapOrigin.cs" />
+    <Compile Include="GearManager\Gear.cs" />
+    <Compile Include="GearManager\GearBuilder.cs" />
+    <Compile Include="GearManager\GearGrade.cs" />
+    <Compile Include="GearManager\GearPropType.cs" />
+    <Compile Include="GearManager\GearQuality.cs" />
+    <Compile Include="GearManager\GearResource.cs" />
+    <Compile Include="GearManager\GearType.cs" />
+    <Compile Include="GearManager\Potential.cs" />
+    <Compile Include="GearManager\Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="GearManager\Scroll.cs" />
+    <Compile Include="GearManager\ScrollType.cs" />
+    <Compile Include="GearManager\Soul.cs" />
+    <Compile Include="GearManager\StringHelper.cs" />
+    <Compile Include="GearManager\TextRenderer.cs" />
+    <Compile Include="GearManager\TooltipRenderer.cs" />
+    <Compile Include="ViewModels\2.PropertiesViewModel.cs" />
+    <Compile Include="ViewModels\3.AddOptionViewModel.cs" />
+    <Compile Include="ViewModels\4.UpgradeViewModel.cs" />
+    <Compile Include="ViewModels\5.StarforceViewModel.cs" />
+    <Compile Include="ViewModels\6.PotentialViewModel.cs" />
+    <Compile Include="ViewModels\7.AddPotentialViewModel.cs" />
+    <Compile Include="ViewModels\8.SoulWeaponViewModel.cs" />
+    <Compile Include="ViewModels\9.InfoViewModel.cs" />
+    <Compile Include="ViewModels\0.GearBuilderManager.cs" />
+    <Compile Include="Views\2.PropertiesView.xaml.cs">
+      <DependentUpon>2.PropertiesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\3.AddOptionView.xaml.cs">
+      <DependentUpon>3.AddOptionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\1.GearInfoView.xaml.cs">
+      <DependentUpon>1.GearInfoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\1.GearInfoViewModel.cs" />
+    <Compile Include="ViewModels\0.ShellViewModel.cs" />
+    <Compile Include="Views\4.UpgradeView.xaml.cs">
+      <DependentUpon>4.UpgradeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\5.StarforceView.xaml.cs">
+      <DependentUpon>5.StarforceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\6.PotentialView.xaml.cs">
+      <DependentUpon>6.PotentialView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\7.AddPotentialView.xaml.cs">
+      <DependentUpon>7.AddPotentialView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\8.SoulWeaponView.xaml.cs">
+      <DependentUpon>8.SoulWeaponView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\9.InfoView.xaml.cs">
+      <DependentUpon>9.InfoView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="FluentTheme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\0.ShellView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\0.ShellView.xaml.cs">
+      <DependentUpon>0.ShellView.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Views\2.PropertiesView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\3.AddOptionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\1.GearInfoView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\4.UpgradeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\5.StarforceView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\6.PotentialView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\7.AddPotentialView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\8.SoulWeaponView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\9.InfoView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\GlobalAssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="GearManager\Resource.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="GearSimulator.ico" />
+    <Resource Include="LICENSE.txt" />
+    <Resource Include="GearManager\Resources\AdditionalOptionTooltip.epic.png" />
+    <Resource Include="GearManager\Resources\AdditionalOptionTooltip.legendary.png" />
+    <Resource Include="GearManager\Resources\AdditionalOptionTooltip.rare.png" />
+    <Resource Include="GearManager\Resources\AdditionalOptionTooltip.unique.png" />
+    <Resource Include="GearManager\Resources\ItemProtector.Icon.0.png" />
+    <Resource Include="GearManager\Resources\ItemProtector.Icon.1.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.%25.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.%28.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.%29.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.+.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.-.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.0.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.1.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.2.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.3.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.4.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.5.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.6.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.7.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.8.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.9.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.none.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.reqDEX.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.reqINT.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.reqLEV.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.reqLUK.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.reqPOP.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Can.reqSTR.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.0.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.1.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.2.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.3.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.4.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.5.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.6.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.7.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.8.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.9.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.minus.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.none.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.percent.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.plus.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.reqDEX.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.reqINT.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.reqLEV.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.reqLUK.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.reqPOP.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Cannot.reqSTR.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.0.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.1.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.2.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.3.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.4.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.5.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.6.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.7.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.8.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.9.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.minus.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.none.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.percent.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.plus.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.reqDEX.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.reqINT.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.reqLEV.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.reqLUK.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.reqPOP.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Disabled.reqSTR.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Job.disable.0.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Job.disable.1.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Job.disable.2.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Job.disable.3.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Job.disable.4.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Job.disable.5.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Job.enable.0.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Job.enable.1.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Job.enable.2.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Job.enable.3.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Job.enable.4.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Job.enable.5.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Job.expand.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Job.normal.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.LookAhead.%25.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.LookAhead.+.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.LookAhead.-.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.LookAhead.0.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.LookAhead.1.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.LookAhead.2.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.LookAhead.3.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.LookAhead.4.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.LookAhead.5.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.LookAhead.6.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.LookAhead.7.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.LookAhead.8.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.LookAhead.9.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.LookAhead.none.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Star.Star.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Star.Star0.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Star.Star1.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.decline.0.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.decline.1.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.decline.2.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.decline.3.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.decline.4.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.decline.5.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.decline.6.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.decline.7.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.decline.8.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.decline.9.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.decline.minus.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.icon.bdr.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.icon.igpddr.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.icon.pdd.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.incline.0.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.incline.1.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.incline.2.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.incline.3.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.incline.4.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.incline.5.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.incline.6.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.incline.7.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.incline.8.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.incline.9.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.Summary.incline.plus.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.YellowNumber.%25.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.YellowNumber.+.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.YellowNumber.-.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.YellowNumber.0.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.YellowNumber.1.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.YellowNumber.2.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.YellowNumber.3.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.YellowNumber.4.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.YellowNumber.5.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.YellowNumber.6.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.YellowNumber.7.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.YellowNumber.8.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.YellowNumber.9.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Equip.YellowNumber.none.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Frame.bottom.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Frame.cover.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Frame.dotline.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Frame.line.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.Frame.top.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.ItemIcon.0.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.ItemIcon.1.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.ItemIcon.2.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.ItemIcon.3.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.ItemIcon.4.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.ItemIcon.base.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.ItemIcon.cover.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.ItemIcon.new.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.ItemIcon.old.png" />
+    <Resource Include="GearManager\Resources\UIToolTip.img.Item.ItemIcon.shade.png" />
+    <Resource Include="Resources\AddOption.png" />
+    <Resource Include="Resources\AddPotential.png" />
+    <Resource Include="Resources\Elysium.png" />
+    <Resource Include="Resources\GearInfo.png" />
+    <Resource Include="Resources\Info.png" />
+    <Resource Include="Resources\Potential.png" />
+    <Resource Include="Resources\Properties.png" />
+    <Resource Include="Resources\SoulWeapon.png" />
+    <Resource Include="Resources\Starforce.png" />
+    <Resource Include="Resources\Sygunhas.png" />
+    <Resource Include="Resources\Upgrade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\GearData.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\GearString.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ItemOptionData.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>; Move all assemblies and related files to lib folder
+ROBOCOPY "$(TargetDir) " "$(TargetDir)lib\ " /XF *.exe *.config *.manifest /XD lib logs data /E /IS /MOVE
+if %25errorlevel%25 leq 4 exit 0 else exit %25errorlevel%25</PostBuildEvent>
+  </PropertyGroup>
+</Project>

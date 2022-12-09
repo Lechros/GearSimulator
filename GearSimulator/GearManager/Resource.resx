@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AdditionalOptionTooltip_epic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\additionaloptiontooltip.epic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdditionalOptionTooltip_legendary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\additionaloptiontooltip.legendary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdditionalOptionTooltip_rare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\additionaloptiontooltip.rare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdditionalOptionTooltip_unique" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\additionaloptiontooltip.unique.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemProtector_Icon_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\itemprotector.icon.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemProtector_Icon_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\itemprotector.icon.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_percent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.percent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_reqDEX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.reqdex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_reqINT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.reqint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_reqLEV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.reqlev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_reqLUK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.reqluk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_reqPOP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.reqpop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Cannot_reqSTR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.cannot.reqstr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_reqDEX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.reqdex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_reqINT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.reqint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_reqLEV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.reqlev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_reqLUK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.reqluk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_reqPOP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.reqpop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can_reqSTR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.reqstr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can__" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can__1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.%.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can__2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.(.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can__3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Can__4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.can.+.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_percent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.percent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_reqDEX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.reqdex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_reqINT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.reqint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_reqLEV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.reqlev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_reqLUK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.reqluk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_reqPOP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.reqpop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Disabled_reqSTR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.disabled.reqstr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Job_disable_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.job.disable.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Job_disable_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.job.disable.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Job_disable_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.job.disable.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Job_disable_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.job.disable.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Job_disable_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.job.disable.4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Job_disable_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.job.disable.5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Job_enable_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.job.enable.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Job_enable_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.job.enable.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Job_enable_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.job.enable.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Job_enable_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.job.enable.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Job_enable_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.job.enable.4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Job_enable_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.job.enable.5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Job_expand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.job.expand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Job_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.job.normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_LookAhead_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.lookahead.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_LookAhead_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.lookahead.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_LookAhead_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.lookahead.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_LookAhead_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.lookahead.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_LookAhead_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.lookahead.4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_LookAhead_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.lookahead.5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_LookAhead_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.lookahead.6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_LookAhead_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.lookahead.7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_LookAhead_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.lookahead.8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_LookAhead_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.lookahead.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_LookAhead_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.lookahead.none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_LookAhead__" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.lookahead.-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_LookAhead__1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.lookahead.%.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_LookAhead__2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.lookahead.+.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Star_Star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.star.star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Star_Star0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.star.star0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Star_Star1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.star.star1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_decline_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.decline.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_decline_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.decline.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_decline_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.decline.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_decline_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.decline.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_decline_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.decline.4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_decline_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.decline.5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_decline_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.decline.6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_decline_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.decline.7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_decline_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.decline.8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_decline_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.decline.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_decline_minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.decline.minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_icon_bdr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.icon.bdr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_icon_igpddr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.icon.igpddr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_icon_pdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.icon.pdd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_incline_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.incline.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_incline_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.incline.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_incline_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.incline.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_incline_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.incline.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_incline_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.incline.4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_incline_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.incline.5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_incline_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.incline.6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_incline_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.incline.7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_incline_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.incline.8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_incline_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.incline.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_Summary_incline_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.summary.incline.plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_YellowNumber_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.yellownumber.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_YellowNumber_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.yellownumber.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_YellowNumber_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.yellownumber.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_YellowNumber_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.yellownumber.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_YellowNumber_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.yellownumber.4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_YellowNumber_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.yellownumber.5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_YellowNumber_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.yellownumber.6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_YellowNumber_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.yellownumber.7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_YellowNumber_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.yellownumber.8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_YellowNumber_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.yellownumber.9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_YellowNumber_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.yellownumber.none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_YellowNumber__" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.yellownumber.-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_YellowNumber__1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.yellownumber.%.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Equip_YellowNumber__2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.equip.yellownumber.+.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Frame_bottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.frame.bottom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Frame_cover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.frame.cover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Frame_dotline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.frame.dotline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Frame_line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.frame.line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_Frame_top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.frame.top.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_ItemIcon_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.itemicon.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_ItemIcon_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.itemicon.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_ItemIcon_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.itemicon.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_ItemIcon_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.itemicon.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_ItemIcon_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.itemicon.4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_ItemIcon_base" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.itemicon.base.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_ItemIcon_cover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.itemicon.cover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_ItemIcon_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.itemicon.new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_ItemIcon_old" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.itemicon.old.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UIToolTip_img_Item_ItemIcon_shade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\uitooltip.img.item.itemicon.shade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
